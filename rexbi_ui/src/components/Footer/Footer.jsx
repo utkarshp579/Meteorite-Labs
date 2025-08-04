@@ -5,10 +5,12 @@ import "../../styles/Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
-      <FooterLeft />
-      <FooterRight />
-    </div>
+    <footer className="footer-wrapper">
+      <div className="footer-container">
+        <FooterLeft />
+        <FooterRight />
+      </div>
+    </footer>
   );
 };
 

@@ -6,14 +6,18 @@ import RecommendationSection from "./components/RecommendationSection";
 import InteractiveMap from "./components/InteractiveMap";
 import GuideSection from "./components/GuideSection";
 import Footer from "./components/Footer/Footer";
+import TopRecommendations from "./components/TopRecommendations";
 
 function App() {
   return (
     <div className="app">
       <Navbar />
-      <RecommendationSection />
-      <InteractiveMap />
-      <GuideSection />
+      <div className="main-container">
+        <RecommendationSection />
+        <TopRecommendations />
+        <InteractiveMap />
+        <GuideSection />
+      </div>
       <Footer />
     </div>
   );

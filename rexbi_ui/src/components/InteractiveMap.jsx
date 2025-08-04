@@ -33,7 +33,7 @@ const InteractiveMap = () => {
       </p>
       <MapContainer
         center={[60.472, 8.4689]}
-        zoom={4}
+        zoom={7}
         scrollWheelZoom={true}
         className="map"
       >

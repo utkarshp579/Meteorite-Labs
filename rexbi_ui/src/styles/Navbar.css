@@ -7,6 +7,24 @@
   background-color: white;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  
+  /* 🔧 Make the navbar fixed to top */
+  /* position: fixed ;          */
+  top: 0;                   /* 🔧 */
+  left: 0;                  /* 🔧 */
+  right: 0;                 /* 🔧 */
+  z-index: 1000;            /* 🔧 Ensure it stays above other content */
+}
+
+
+
 .navbar-left {
   display: flex;
   align-items: center;

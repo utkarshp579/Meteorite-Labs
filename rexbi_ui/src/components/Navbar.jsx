@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Navbar.css";
+import { Globe , Menu} from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -10,8 +11,8 @@ const Navbar = () => {
       </div>
       <div className="navbar-right">
         <button className="login-btn">Log in</button>
-        <span className="icon">🌐</span>
-        <span className="icon">☰</span>
+        <Globe className="w-5 h-5 icon " />
+        <Menu className="w-5 h-5 icon " />
       </div>
     </nav>
   );

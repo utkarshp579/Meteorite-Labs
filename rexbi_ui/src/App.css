@@ -1,6 +1,47 @@
-.app {
+/* .app {
   font-family: sans-serif;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+} */
+
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-container {
+  flex: 1;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Optional: Add global styles for headings, links, etc. */
+h1, h2, h3, h4, h5 {
+  color: #1a1a1a;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer already styled separately in Footer.css */
