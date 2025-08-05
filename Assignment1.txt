@@ -1,0 +1,56 @@
+✅ Task 01: Front-End UI Clone + Map Interactivity
+Goal: Replicate the UI and interactivity of the following page:
+🔗 https://www.rexby.com/asasteinars/norway
+
+Requirements:
+Responsive UI Design: Match the example’s look and feel across both desktop and mobile.
+Interactive Map: Add an interactive map with sample locations. Clicking a marker should show more details.
+Top Recommendations Section: Include a “Top Recommendations” section similar to the one in the example.
+Tech Stack: You may use React, TailwindCSS (or any preferred front-end framework), and a mapping library like Google Maps API, Leaflet.js, etc.
+
+
+
+To make 
+    Header
+    RecommendationsInteractive map 
+    guide me 
+    footer
+
+    
+
+
+✅ Task 02: Login, Signup, and Dashboard with GraphQL
+Goal: Build a login/signup system and a post-login dashboard.
+
+Requirements:
+
+Login & Signup Pages using provided GraphQL APIs
+
+Dashboard Page (after successful login) to:
+
+Fetch data from the user-db collection using a GraphQL query
+
+Display user data (name, email, role, etc.) in a table
+
+GraphQL Endpoint:
+🔗 http://13.200.172.225:1337/graphql
+
+Test Credentials:
+
+Login:
+Username: testuser
+Email: test@gmail.com
+Password: 1234567989
+
+Signup:
+Use the following default values:
+Role: sailor
+Confirmed: true
+
+Tech Stack:
+
+React
+
+TypeScript
+
+GraphQL APIs

@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 import Navbar from "./components/Navbar";
-import RecommendationSection from "./components/RecommendationSection";
+import HeroSection from "./components/HeroSection";
 import InteractiveMap from "./components/InteractiveMap";
 import GuideSection from "./components/GuideSection";
 import Footer from "./components/Footer/Footer";
@@ -13,7 +13,7 @@ function App() {
     <div className="app">
       <Navbar />
       <div className="main-container">
-        <RecommendationSection />
+        <HeroSection />
         <TopRecommendations />
         <InteractiveMap />
         <GuideSection />
